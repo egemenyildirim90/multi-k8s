@@ -7,6 +7,7 @@ WORKDIR /home/node/app
  
 COPY --chown=node:node ./package.json ./
 RUN npm install
+RUN npm install react-bootstrap bootstrap
 COPY --chown=node:node ./ ./
  
 CMD ["npm", "start"]

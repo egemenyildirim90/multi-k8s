@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.content-container {
+  margin: auto;
+  max-width: 800px;
+  background-color: #f8f9fa; /* Bootstrap'un varsayılan arka plan rengi */
+  padding: 20px;
+  margin-top: 20px;
+}
