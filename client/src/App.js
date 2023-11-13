@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar bg="dark" variant="dark">
-          <Navbar.Brand href="/">Fibonacci Calculator</Navbar.Brand>
+          <Navbar.Brand href="/">Fibonacci Calculator Version 2</Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/otherpage">Other Page</Nav.Link>
